@@ -17,8 +17,8 @@ More about the course here:
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-fund-me-f23
-cd foundry-fund-me-f23
+git clone https://github.com/andrejscek/foundry-fund-me
+cd foundry-fund-me
 forge build
 ```
 
