@@ -38,14 +38,14 @@ forge script script/DeployFundMe.s.sol
 
 ## Testing
 
-We talk about 4 test tiers in the video. 
+There are 4 types of test usually:
 
 1. Unit
 2. Integration
 3. Forked
 4. Staging
 
-This repo we cover #1 and #3. 
+In this repo we cover #1 and #3. 
 
 
 ```
@@ -57,9 +57,7 @@ or
 ```
 // Only run test functions matching the specified regex pattern.
 
-"forge test -m testFunctionName" is deprecated. Please use 
-
-forge test --match-test testFunctionName
+forge test --mt testFunctionName
 ```
 
 or
